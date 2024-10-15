@@ -1,0 +1,10 @@
+<h1>Customers</h1>
+
+{{range .}}
+<p>
+    Customer information: {{.FirstName}} {{.SecondName}} {{.Age}} <br>
+    Contact: {{.Contact.Email}}, {{.Contact.Phone}} <br>
+    Address: {{.Address.City}}, {{.Address.Country}} <br>
+
+</p>
+{{end}}
